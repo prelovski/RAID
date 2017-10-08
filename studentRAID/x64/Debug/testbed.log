@@ -1,0 +1,53 @@
+﻿Build started 08.10.2017 16:29:47.
+     1>Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IInclude /Iconfuse /Ijerasure /IjerasureNew /IFFT /Zi /nologo /W3 /WX- /Od /D WIN32 /D NODLL /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt confuse\confuse.c confuse\lexer.c
+         lexer.c
+     1>lexer.c(904): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>lexer.c(1371): warning C4003: not enough actual parameters for macro 'cfg_yywrap'
+     1>lexer.c(1524): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>lexer.c(1646): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>lexer.c(1850): warning C4273: 'isatty' : inconsistent dll linkage
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(332) : see previous definition of 'isatty'
+     1>lexer.c(1880): warning C4996: 'isatty': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _isatty. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\io.h(332) : see declaration of 'isatty'
+     1>lexer.c(1880): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(718) : see declaration of 'fileno'
+     1>lexer.l(339): warning C4090: 'function' : different 'const' qualifiers
+         confuse.c
+     1>confuse\confuse.c(767): warning C4090: 'function' : different 'const' qualifiers
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IInclude /Iconfuse /Ijerasure /IjerasureNew /IFFT /Zi /nologo /W3 /WX- /Od /D WIN32 /D NODLL /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt disk\array.cpp disk\disk.cpp disk\RAIDProcessor.cpp RAID\arithmetic.cpp RAID\RAID5.cpp RAID\RS.cpp src\locker.cpp src\main.cpp src\misc.cpp src\usecase.cpp
+         usecase.cpp
+     1>src\usecase.cpp(69): warning C4244: 'initializing' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         misc.cpp
+     1>src\misc.cpp(76): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+         main.cpp
+     1>src\main.cpp(18): warning C4068: unknown pragma
+         locker.cpp
+         RS.cpp
+         RAID5.cpp
+         arithmetic.cpp
+         RAIDProcessor.cpp
+         disk.cpp
+         array.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\RAID\trunk\studentRAID\x64\Debug\testbed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\RAID\trunk\studentRAID\x64\Debug\testbed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\RAID\trunk\studentRAID\x64\Debug\testbed.lib" /MACHINE:X64 x64\Debug\confuse.obj
+         x64\Debug\lexer.obj
+         x64\Debug\array.obj
+         x64\Debug\disk.obj
+         x64\Debug\RAIDProcessor.obj
+         x64\Debug\arithmetic.obj
+         x64\Debug\RAID5.obj
+         x64\Debug\RS.obj
+         x64\Debug\locker.obj
+         x64\Debug\main.obj
+         x64\Debug\misc.obj
+         x64\Debug\usecase.obj
+         testbed.vcxproj -> D:\RAID\trunk\studentRAID\x64\Debug\testbed.exe
+     1>Done Building Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.04
