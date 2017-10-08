@@ -157,6 +157,7 @@
     <ClCompile Include="disk\disk.cpp" />
     <ClCompile Include="disk\RAIDProcessor.cpp" />
     <ClCompile Include="RAID\arithmetic.cpp" />
+    <ClCompile Include="RAID\gum.cpp" />
     <ClCompile Include="RAID\RAID5.cpp" />
     <ClCompile Include="RAID\RS.cpp" />
     <ClCompile Include="src\locker.cpp" />
@@ -169,6 +170,7 @@
     <ClInclude Include="Include\array.h" />
     <ClInclude Include="Include\config.h" />
     <ClInclude Include="Include\disk.h" />
+    <ClInclude Include="Include\gum.h" />
     <ClInclude Include="Include\locker.h" />
     <ClInclude Include="Include\misc.h" />
     <ClInclude Include="Include\RAID5.h" />

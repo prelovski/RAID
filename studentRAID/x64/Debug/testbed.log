@@ -1,5 +1,5 @@
-﻿Build started 08.10.2017 16:29:47.
-     1>Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" on node 2 (Build target(s)).
+﻿Build started 08.10.2017 17:20:32.
+     1>Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IInclude /Iconfuse /Ijerasure /IjerasureNew /IFFT /Zi /nologo /W3 /WX- /Od /D WIN32 /D NODLL /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt confuse\confuse.c confuse\lexer.c
          lexer.c
@@ -17,7 +17,7 @@
          confuse.c
      1>confuse\confuse.c(767): warning C4090: 'function' : different 'const' qualifiers
          Generating Code...
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IInclude /Iconfuse /Ijerasure /IjerasureNew /IFFT /Zi /nologo /W3 /WX- /Od /D WIN32 /D NODLL /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt disk\array.cpp disk\disk.cpp disk\RAIDProcessor.cpp RAID\arithmetic.cpp RAID\RAID5.cpp RAID\RS.cpp src\locker.cpp src\main.cpp src\misc.cpp src\usecase.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IInclude /Iconfuse /Ijerasure /IjerasureNew /IFFT /Zi /nologo /W3 /WX- /Od /D WIN32 /D NODLL /D _CRT_SECURE_NO_WARNINGS /D YY_NO_UNISTD_H /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt disk\array.cpp disk\disk.cpp disk\RAIDProcessor.cpp RAID\arithmetic.cpp RAID\gum.cpp RAID\RAID5.cpp RAID\RS.cpp src\locker.cpp src\main.cpp src\misc.cpp src\usecase.cpp
          usecase.cpp
      1>src\usecase.cpp(69): warning C4244: 'initializing' : conversion from 'time_t' to 'unsigned int', possible loss of data
          misc.cpp
@@ -27,6 +27,7 @@
          locker.cpp
          RS.cpp
          RAID5.cpp
+         gum.cpp
          arithmetic.cpp
          RAIDProcessor.cpp
          disk.cpp
@@ -39,6 +40,7 @@
          x64\Debug\disk.obj
          x64\Debug\RAIDProcessor.obj
          x64\Debug\arithmetic.obj
+         x64\Debug\gum.obj
          x64\Debug\RAID5.obj
          x64\Debug\RS.obj
          x64\Debug\locker.obj
@@ -46,8 +48,8 @@
          x64\Debug\misc.obj
          x64\Debug\usecase.obj
          testbed.vcxproj -> D:\RAID\trunk\studentRAID\x64\Debug\testbed.exe
-     1>Done Building Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\RAID\trunk\studentRAID\testbed.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:12.04
+Time Elapsed 00:00:12.71

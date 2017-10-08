@@ -63,6 +63,9 @@
     <ClCompile Include="src\locker.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="RAID\gum.cpp">
+      <Filter>Source Files\RAID</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\array.h">
@@ -99,6 +102,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\gum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

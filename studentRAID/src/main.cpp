@@ -22,6 +22,7 @@
 #include "usecase.h"
 #include "array.h"
 #include "RAID5.h"
+#include "gum.h"
 #ifndef STUDENTBUILD
 #include "RAID6.h"
 #include "Cauchy.h"
@@ -83,6 +84,7 @@ cfg_opt_t opts[] ={
     CFG_SEC("disk", disk_opts, CFGF_MULTI),
     //all RAID types should be listed here
     PARAMCONFIG(RAID5),
+	PARAMCONFIG(gum),
 #ifndef STUDENTBUILD
     PARAMCONFIG(RAID6),
     PARAMCONFIG(Cauchy),
